@@ -38,6 +38,20 @@
       background-color: hwb(264 23% 29% / 0.9) !important;
       backdrop-filter: saturate(100%) blur(25px);
     }
-    .footer , span{
+    .footer span{
         text-align: center;
     }
+    /* button */
+    .bt button{
+        background-color:  #ad1fff !important;
+        color: #fff !important;
+        padding:8px 30px;
+        border: none;
+        border-radius: 10px solid;
+        
+    }
+    button:hover{
+        background-color: #fff !important;
+        color:#ad1fff !important;
+    }
+   
