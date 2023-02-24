@@ -38,3 +38,6 @@
       background-color: hwb(264 23% 29% / 0.9) !important;
       backdrop-filter: saturate(100%) blur(25px);
     }
+    .footer , span{
+        text-align: center;
+    }
