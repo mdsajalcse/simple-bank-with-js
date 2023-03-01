@@ -34,7 +34,7 @@
                         <div class="card h-70 bg-dark text-center text-white">
                             <div class="card-body">
                               <h5 class="card-title fs-2">Withdraw</h5>
-                              <p class="card-text display-5">$</p>
+                              <p class="card-text display-5">$<span id="withdraw-total">1500</span></p>
                             </div>  
                           </div>
                     </div>
@@ -77,14 +77,14 @@
                             <form>
                                 <!-- Deposit input -->
                                 <div class="form-outline">
-                                    <label class="form-label fs-2"  for="withdraw-field">Please Withdraw</label>
+                                    <label class="form-label fs-2">Please Withdraw</label>
                                  <br> <input type="text" class="mt-1 w-50 py-2" id="withdraw-field" placeholder=" $ Withdraw" class="form-control" />
                                  
                                 </div>
 
-                                <!-- deposit button -->
-                                <div class="bt"><button type="submit" class="btn btn-primary text-center mb-4 mt-3">
-                                    $ Deposit
+                                <!-- withdraw button -->
+                                <div class="bt"><button id="btn-withdraw" type="submit" class="btn btn-primary text-center mb-4 mt-3">
+                                    $ Withdraw
                                    </button></div>
                                 </div>
                               </form>
@@ -111,7 +111,8 @@
   </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/6edcb902cc.js" crossorigin="anonymous"></script>
-    
     <script src="resources/js/deposit.js"></script>
+    <script src="/resources/js/withdraw.js"></script>
+    
 </body>
 </html>
